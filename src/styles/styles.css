@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root {
+	--green: #66E5BF;
+	--purple: #A675F5;
+	--blue: #050542;
+}
+
+* {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+body {
+    background-color: var(--blue);
+}
+
