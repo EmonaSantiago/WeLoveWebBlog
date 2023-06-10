@@ -1,13 +1,28 @@
+<script>
+  import Sessioncard from "../lib/components/Sessioncard.svelte";
+</script>
+
 <!-- Hero section -->
 <section id="Hero">
   <h1>WE ♥️ WEB</h1>
   <img src="/images/hero-image.png" alt="studenten" />
 </section>
 
-<!-- Sessions section -->
-<section id="Sessions">
-  <h1>Sessions</h1>
-</section>
+<!-- Sessions -->
+<div class="row">
+  <div class="left-column">
+    <section id="introduction">
+      <p>
+        Kom een Sessie volgen waarin een<br />
+        designer/devloperuit de praktijk iets komt vertellenen laten zien!
+      </p>
+      <a href="/aanmelden" class="button">Aanmelden</a>
+    </section>
+  </div>
+  <div class="right-column">
+    <Sessioncard />
+  </div>
+</div>
 
 <!-- Cards section -->
 
@@ -51,7 +66,77 @@
     }
   }
   /* Sessions */
-  #Sessions {
+
+  p {
+    color: white;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+
+  .button {
+    text-decoration: none;
+    border: solid 2px var(--green);
+    border-radius: 10px;
+    padding: 1em;
+    font-weight: bold;
+    background-color: var(--green);
+    color: var(--blue);
+  }
+
+  @media screen and (min-width: 390px) {
+    .button {
+      padding: 10px;
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    p {
+      font-size: 3em;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .row {
     height: 100vh;
+    margin: auto;
+    /* margin-top: 8em; */
+  }
+
+  .left-column {
+    float: left;
+    width: 30%;
+    padding: 2em;
+    align-items: center;
+    vertical-align: center;
+    height: 100%;
+  }
+
+  .right-column {
+    float: left;
+    width: 70%;
+    align-items: center;
+    vertical-align: center;
+    height: 100%;
+  }
+
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .row {
+      height: 100%;
+    }
+
+    .left-column {
+      width: 100%;
+      height: auto;
+    }
+
+    .right-column {
+      width: 100%;
+    }
   }
 </style>

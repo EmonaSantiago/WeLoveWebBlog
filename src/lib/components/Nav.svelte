@@ -28,6 +28,7 @@
     border-radius: 10px;
     padding: 1em;
     margin-left: 2em;
+    font-weight: bold;
   }
   @media only screen and (max-width: 500px) {
     .nav-link1,
