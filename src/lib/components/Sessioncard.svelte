@@ -1,7 +1,7 @@
 <div class="container">
   <div class="item">
     <img
-      src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
     />
     <h1>Lorem ipsum dolor sit.</h1>
     <p>
@@ -10,43 +10,47 @@
   </div>
   <div class="item">
     <img
-      src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
     />
-    <h1>Lorem, ipsum.</h1>
+    <h1>Lorem ipsum dolor sit.</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, cumque
-      tempore?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
     </p>
   </div>
   <div class="item">
     <img
-      src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
-    />
-    <h1>Lorem.</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae!</p>
-  </div>
-  <div class="item">
-    <img
-      src="https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
+      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
     />
     <h1>Lorem ipsum dolor sit.</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-  </div>
-  <div class="item">
-    <img
-      src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
-    />
-    <h1>Lorem ipsum dolor sit amet.</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel.</p>
-  </div>
-  <div class="item">
-    <img
-      src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80"
-    />
-    <h1>Lorem, ipsum dolor.</h1>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, a
-      iusto?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
+    </p>
+  </div>
+  <div class="item">
+    <img
+      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
+    />
+    <h1>Lorem ipsum dolor sit.</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
+    </p>
+  </div>
+  <div class="item">
+    <img
+      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
+    />
+    <h1>Lorem ipsum dolor sit.</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
+    </p>
+  </div>
+  <div class="item">
+    <img
+      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
+    />
+    <h1>Lorem ipsum dolor sit.</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
     </p>
   </div>
 </div>
