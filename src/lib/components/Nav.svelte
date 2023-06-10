@@ -29,7 +29,7 @@
     padding: 1em;
     margin-left: 2em;
   }
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 500px) {
     .nav-link1,
     .nav-link2 {
       font-size: 12px;
