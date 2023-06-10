@@ -27,4 +27,10 @@
     height: auto;
     background-color: var(--green);
   }
+
+  @media only screen and (max-width: 700px) {
+    #Footer {
+      position: absolute;
+    }
+  }
 </style>

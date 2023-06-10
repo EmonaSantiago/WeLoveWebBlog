@@ -5,10 +5,14 @@
 </section>
 
 <!-- Sessions section -->
+<section id="Sessions">
+  <h1>Sessions</h1>
+</section>
 
 <!-- Cards section -->
 
 <style>
+  /* Hero */
   h1 {
     color: var(--purple);
     font-size: 80px;
@@ -24,11 +28,30 @@
   img {
     width: 100%;
     height: auto;
+    border-radius: 12px;
+  }
+
+  @media only screen and (max-width: 650px) {
+    h1 {
+      font-size: 30px;
+      padding: 10px;
+      position: absolute;
+      font: "Fira Sans", sans-serif;
+    }
   }
 
   @media only screen and (max-width: 700px) {
-    h1 {
-      font-size: 18px;
+    img {
+      height: 80vh;
+      object-fit: cover;
+      width: 100%;
     }
+    #Hero {
+      height: 80vh;
+    }
+  }
+  /* Sessions */
+  #Sessions {
+    height: 100vh;
   }
 </style>
