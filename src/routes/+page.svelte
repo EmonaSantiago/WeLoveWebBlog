@@ -4,32 +4,35 @@
 
 <!-- Hero section -->
 <section id="Hero">
-  <h1>WE ♥️ WEB</h1>
+  <h1>WE 💜 WEB</h1>
   <img src="/images/hero-image.png" alt="studenten" />
 </section>
 
 <!-- Sessions -->
-<div class="row">
-  <div class="left-column">
-    <section id="introduction">
-      <p>
-        Kom een Sessie volgen waarin een<br />
-        designer/devloperuit de praktijk iets komt vertellenen laten zien!
-      </p>
-      <a href="/aanmelden" class="button">Aanmelden</a>
-    </section>
+<section id="Sessions">
+  <div class="row">
+    <div class="left-column">
+      <div class="introduction">
+        <h2>WE 💜 <br /> THIS WEEK</h2>
+        <p>
+          Kom een Sessie volgen waarin een<br />
+          designer/devloperuit de praktijk iets komt vertellenen laten zien!
+        </p>
+        <a href="/aanmelden" class="button">Aanmelden</a>
+      </div>
+    </div>
+    <div class="right-column">
+      <Sessioncard />
+    </div>
   </div>
-  <div class="right-column">
-    <Sessioncard />
-  </div>
-</div>
+</section>
 
 <!-- Cards section -->
 
 <style>
   /* Hero */
   h1 {
-    color: var(--purple);
+    color: white;
     font-size: 80px;
     position: absolute;
     background-color: var(--blue);
@@ -66,11 +69,13 @@
     }
   }
   /* Sessions */
-
+  h2 {
+    color: white;
+    margin-bottom: 4px;
+  }
   p {
     color: white;
     margin-bottom: 1em;
-    font-weight: bold;
   }
 
   .button {
@@ -89,16 +94,24 @@
     }
   }
 
+  #Sessions {
+    height: 100vh;
+    padding: 200px 0px 0px 40px;
+  }
+
   @media screen and (min-width: 1100px) {
+    h2 {
+      font-size: 4em;
+    }
     p {
-      font-size: 3em;
+      font-size: 2em;
     }
   }
   * {
     box-sizing: border-box;
   }
   .row {
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
     /* margin-top: 8em; */
   }
@@ -117,7 +130,7 @@
     width: 70%;
     align-items: center;
     vertical-align: center;
-    height: 100%;
+    /* height: 100%; */
   }
 
   .row:after {
@@ -126,6 +139,9 @@
   }
 
   @media screen and (max-width: 1400px) {
+    #Sessions {
+      padding: 0;
+    }
     .row {
       height: 100%;
     }
