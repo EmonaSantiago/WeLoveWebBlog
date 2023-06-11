@@ -1,57 +1,58 @@
 <div class="container">
   <div class="item">
-    <img
-      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
-    />
-    <h1>Lorem ipsum dolor sit.</h1>
+    <h2>20/03/23</h2>
+    <img src="/images/Ontwerpen.png" />
+    <h1>DLC Ontwerp fase</h1>
+    <p>Emona Santiago</p>
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
+      Heb jij moeite met het DLC ontwerpfase? Emona neemt je mee in het ontwerp
+      fase.
     </p>
+    <a href="/detail" class="button">Lees meer...</a>
+  </div>
+
+  <div class="item">
+    <h2>21/03/23</h2>
+    <img src="/images/AdobeIllustrator.png" />
+    <h1>Adobe illustrator Digital design</h1>
+    <p>Daphne Zwuup</p>
+    <p>Digital designen in Adobe illustrator met Daphne.</p>
+    <a href="/detail" class="button">Lees meer...</a>
   </div>
   <div class="item">
-    <img
-      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
-    />
-    <h1>Lorem ipsum dolor sit.</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
-    </p>
+    <h2>22/03/2023</h2>
+    <img src="/images/Code.png" />
+    <h1>Html/Css skills</h1>
+    <p>Shauri Maigua</p>
+    <p>Heb jij moeite met HTML/CSS? Shauri deelt graag tips!</p>
+    <a href="/detail" class="button">Lees meer...</a>
   </div>
+
   <div class="item">
-    <img
-      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
-    />
-    <h1>Lorem ipsum dolor sit.</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
-    </p>
+    <h2>23/03/2023</h2>
+    <img src="/images/projectboard.png" />
+    <h1>Project Board opzetten</h1>
+    <p>Boudewijn Bout</p>
+    <p>De perfecte opzet met het Github project board!</p>
+    <a href="/detail" class="button">Lees meer...</a>
   </div>
+
   <div class="item">
-    <img
-      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
-    />
-    <h1>Lorem ipsum dolor sit.</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
-    </p>
+    <h2>24/03/2023</h2>
+    <img src="/images/3D.png" />
+    <h1>3D skills</h1>
+    <p>Daan Korver</p>
+    <p>Intresse in 3D ontwerpen? Daan deelt graag zijn skills!</p>
+    <a href="/detail" class="button">Lees meer...</a>
   </div>
+
   <div class="item">
-    <img
-      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
-    />
-    <h1>Lorem ipsum dolor sit.</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
-    </p>
-  </div>
-  <div class="item">
-    <img
-      src="https://stem.griffith.edu.au/wp-content/uploads/2020/06/ict-industry-projects.jpg"
-    />
-    <h1>Lorem ipsum dolor sit.</h1>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, labore.
-    </p>
+    <h2>25/03/23</h2>
+    <img src="/images/FDND.png" />
+    <h1>FDND Founder</h1>
+    <p>Justin Lung</p>
+    <p>FDND Founder Justin deelt zijn ervaring bij FDND.</p>
+    <a href="/detail" class="button">Lees meer...</a>
   </div>
 </div>
 
@@ -72,6 +73,16 @@
   img {
     border-radius: 8px;
     height: 250px;
+  }
+
+  .button {
+    text-decoration: none;
+    /* border: solid 2px var(--purple);
+    border-radius: 10px; */
+    /* padding: 1em; */
+    font-weight: bold;
+    /* background-color: var(--blue); */
+    color: var(--purple);
   }
 
   .container {
