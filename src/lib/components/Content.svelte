@@ -1,20 +1,36 @@
 <section id="Content">
-  <h2 class="content-title">Collage foto content van sessies</h2>
+  <div class="row">
+    <div class="column">
+      <img src="/images/hero-image.png" alt="Snow" style="width:100%" />
+    </div>
+    <div class="column">
+      <img src="/images/hero-image.png" alt="Forest" style="width:100%" />
+    </div>
+    <div class="column">
+      <img src="/images/hero-image.png" alt="Mountains" style="width:100%" />
+    </div>
+  </div>
 </section>
 
 <style>
-  /* Content section */
-  .content-title {
-    color: white;
+  * {
+    box-sizing: border-box;
   }
+
   #Content {
-    height: 50vh;
     margin: 2em;
   }
 
-  @media only screen and (max-width: 390px) {
-    #Content {
-      height: 100vh;
-    }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 </style>

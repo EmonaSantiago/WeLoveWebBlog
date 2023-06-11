@@ -30,9 +30,6 @@
 
 <!-- Cards section -->
 
-<!-- <section id="Content">
-  <h2 class="content-title">Collage foto content van sessies</h2>
-</section> -->
 <Content />
 
 <style>
@@ -101,7 +98,7 @@
   }
 
   #Sessions {
-    height: 100vh;
+    height: 80vh;
     padding: 200px 0px 0px 40px;
   }
 
