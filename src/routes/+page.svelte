@@ -7,6 +7,9 @@
 <section id="Hero">
   <h1>WE 💜 WEB</h1>
   <img src="/images/hero-image.png" alt="studenten" />
+  <a href="#Sessions"
+    ><img class="arrow" src="/images/Arrow.png" alt="logo" /></a
+  >
 </section>
 
 <!-- Sessions -->
@@ -42,9 +45,16 @@
     padding-right: 20px;
     padding-bottom: 20px;
   }
+
+  .arrow {
+    width: 5em;
+    height: auto;
+    margin-top: -3em;
+  }
   #Hero {
     justify-content: center;
     margin: 2em;
+    text-align: center;
   }
   img {
     width: 100%;

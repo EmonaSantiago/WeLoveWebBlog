@@ -9,6 +9,7 @@
 * {
     margin: 0;
     font-family: "Fira Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
