@@ -27,6 +27,6 @@
   }
   #Footer {
     padding: 2em;
-    background-color: var(--green);
+    background-color: var(--purple);
   }
 </style>
