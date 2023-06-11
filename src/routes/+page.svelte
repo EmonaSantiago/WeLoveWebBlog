@@ -1,5 +1,6 @@
 <script>
   import Sessioncard from "../lib/components/Sessioncard.svelte";
+  import Content from "../lib/components/Content.svelte";
 </script>
 
 <!-- Hero section -->
@@ -28,6 +29,11 @@
 </section>
 
 <!-- Cards section -->
+
+<!-- <section id="Content">
+  <h2 class="content-title">Collage foto content van sessies</h2>
+</section> -->
+<Content />
 
 <style>
   /* Hero */
