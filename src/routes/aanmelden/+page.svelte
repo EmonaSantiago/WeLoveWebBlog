@@ -7,7 +7,7 @@
   <h2>Voor de WE 💜 WEB</h2>
   <p>Iedereen is welkom!</p>
   <div class="form">
-    <form action="/action_page.php">
+    <form action="https://formspree.io/f/moqzowdg" method="POST">
       <label for="fname">Naam</label>
       <input
         type="text"
@@ -26,10 +26,21 @@
 
       <label for="country">Deze week sessie</label>
       <select id="country" name="country">
-        <option value="sessie">Sessie</option>
-        <option value="sessie">Sessie</option>
-        <option value="sessie">Sessie</option>
+        <option value="sessie">DLC Ontwerp fase</option>
+        <option value="sessie">Adobe illustrator Digital design</option>
+        <option value="sessie">Html/Css skills</option>
+        <option value="sessie">Project Board opzetten</option>
+        <option value="sessie">3D skills</option>
+        <option value="sessie">FDND Founder</option>
       </select>
+
+      <label for="vragen">Vragen?</label>
+      <input
+        type="text"
+        id="vragen"
+        name="Vragen"
+        placeholder="Stel je vragen hier!"
+      />
 
       <input type="submit" value="Submit" />
     </form>
